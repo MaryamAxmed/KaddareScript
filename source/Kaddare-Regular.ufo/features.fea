@@ -1,0 +1,29 @@
+languagesystem DFLT dflt;
+
+
+lookup rligRequiredLigatureslookup0 {
+  lookupflag 0;
+    sub \s \h  by \sh;
+    sub \S \h  by \S_h;
+    sub \d \h  by \dh;
+    sub \K \h  by \K_h;
+    sub \D \h  by \D_h;
+    sub \k \h  by \kh;
+} rligRequiredLigatureslookup0;
+
+lookup rligRequiredLigatureslookup1 {
+  lookupflag 0;
+    sub \s \h  by \sh;
+    sub \S \h  by \S_h;
+    sub \d \h  by \dh;
+    sub \K \h  by \K_h;
+    sub \D \h  by \D_h;
+    sub \k \h  by \kh;
+} rligRequiredLigatureslookup1;
+feature rlig {
+
+ script DFLT;
+     language dflt ;
+      lookup rligRequiredLigatureslookup0;
+      lookup rligRequiredLigatureslookup1;
+} rlig;
