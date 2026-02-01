@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Kaddare-Small-T" format="2">
   <advance width="390"/>
-  <unicode hex="E01B"/>
+  <unicode hex="E021"/>
   <outline>
     <contour>
       <point x="81" y="690" type="line" smooth="yes"/>
